@@ -103,20 +103,16 @@ hotkey:
      15、移动到句首:   "shift+_";
      16、移动到句末:   "shift+$";
 
-```
 	6、vim跨文件 选择(鼠标选择类容) 复制 粘贴:
 
-```
      1、进入跨文件 复制模式：  "`+["  (ubuntu / mac);
      2、tmux选择并切换会话：   "`+s"  (ubuntu / mac);
      3、进入跨文件 粘贴模式：  "`+]"  (ubuntu / mac);
      4、返回上一步操作：       "u"    (ubuntu / mac);
      5、快速退出编辑模式：     "ctrl+z"(不保存)
 
-```
   7、vim单文件 选择(shift+_/$ 后按上下键) 复制 粘贴:
 
-```
      1、移动到句首:     "shift+_"  (ubuntu / mac);
      2、移动到句末:     "shift+$"  (ubuntu / mac);
 
