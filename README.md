@@ -1,6 +1,6 @@
 # selfdrive configuration for ubuntu16.04
 
-Install
+Usage
 -----
 
 github:
@@ -27,7 +27,7 @@ git push -u origin master
 
 ```
 
-hotkey
+Hotkey
 -----
 
 terminal:
