@@ -27,14 +27,15 @@ git push -u origin master
 ```
 
 hotkey:
-# 终端
+
+  终端:
 	1、选择打开终端：  "alt+tab" (ubuntu);    "command+tab"(Mac)
 	2、打开终端:       "ctrl+alt+t" (ubuntu); "command+t" (mac);
 	3、显示隐藏文件:   "ctrl+h" (ubuntu);     "shift+cmmand+." (mac);
 	4、退出终端:       "exit"
 	5、关闭终端:       "command+w"
 
-# tmux
+  tmux:
 	1、打开tmux:       "tmux / (tmux new -s new session)" (ubuntu / mac);
 	2、列出所有快捷键: "`+?" (ubuntu / mac);
 	3、重载配置文件:   "`+r" (ubuntu / mac);
@@ -56,7 +57,7 @@ hotkey:
 	14、重命名当前窗口:    "`+,"
 	15、修改当前窗口编号:  "`+."
 
-# vim
+  vim:
 	1、用vim打开多个文件:  "vim -on xx.c yy.c" (左右分屏要用大写的O)
 	   或者进入vim后输入   ":vsp xx.c yy.c" = 左右分屏文件，":sp xx.c yy.c" = 上下分屏显示文件;
 	2、分屏后平分窗口:     "ctrl w+="
@@ -69,7 +70,7 @@ hotkey:
 	   区别于 tmux选择并切换会话窗口: "`+p" (切换至上一窗口)(ubuntu / mac);
 	   区别于 tmux选择并切换会话窗口: "`+n" (切换至上一窗口)(ubuntu / mac);
 
-  5、vim编辑
+  5、vim编辑:
      1、按 "gg" 到代码顶端，"shift+g" 到最低端；
 
      2、"d+w" 删除单词；
@@ -94,14 +95,14 @@ hotkey:
      15、移动到句首:   "shift+_";
      16、移动到句末:   "shift+$";
 
-	6、vim跨文件 选择(鼠标选择类容) 复制 粘贴
+	6、vim跨文件 选择(鼠标选择类容) 复制 粘贴:
      1、进入跨文件 复制模式：  "`+["  (ubuntu / mac);
      2、tmux选择并切换会话：   "`+s"  (ubuntu / mac);
      3、进入跨文件 粘贴模式：  "`+]"  (ubuntu / mac);
      4、返回上一步操作：       "u"    (ubuntu / mac);
      5、快速退出编辑模式：     "ctrl+z"(不保存)
 
-  7、vim单文件 选择(shift+_/$ 后按上下键) 复制 粘贴
+  7、vim单文件 选择(shift+_/$ 后按上下键) 复制 粘贴:
      1、移动到句首:     "shift+_"  (ubuntu / mac);
      2、移动到句末:     "shift+$"  (ubuntu / mac);
 
