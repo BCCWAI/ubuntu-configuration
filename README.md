@@ -19,6 +19,7 @@ git status
 git add .
 git diff
 git commit -m "代码提交信息"
+git push
 
 or push an existing repository fron the command line
 git remote add origin https://github.com/BCCWAI/ubuntu-configuration.git
