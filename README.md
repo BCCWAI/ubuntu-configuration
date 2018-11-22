@@ -1,5 +1,7 @@
 # selfdrive configuration for ubuntu16.04
 
+comma, slam, uis, qira, ida, vim, tmux configuration for ubuntu16.04
+
 Usage
 -----
 
@@ -7,7 +9,7 @@ github:
 ```
 git clone https://github.com/BCCWAI/ubuntu-configuration.git
 
-create a new repository on the command line
+1、"create a new repository" on the command line
 echo "# selfdrive configuration for ubuntu16.04" >> README.md
 git init
 git add *
@@ -15,13 +17,14 @@ git commit -m "代码提交信息"
 git remote add origin https://github.com/BCCWAI/ubuntu-configuration.git
 git push -u origin master
 
+2、"update a new repository" on the command line
 git status
 git add .
 git diff
 git commit -m "代码提交信息"
 git push
 
-or push an existing repository fron the command line
+3、"push an existing repository" fron the command line
 git remote add origin https://github.com/BCCWAI/ubuntu-configuration.git
 git push -u origin master
 
@@ -34,11 +37,20 @@ terminal:
 
   ```
   1、选择打开终端：  "alt+tab" (ubuntu);    "command+tab"(Mac)
-  2、打开终端:       "ctrl+alt+t" (ubuntu); "command+t" (mac);
-  3、显示隐藏文件:   "ctrl+h" (ubuntu);     "shift+cmmand+." (mac);
-  4、退出终端:       "exit"
-  5、关闭终端:       "command+w"
+  2、打开终端：      "ctrl+alt+t" (ubuntu); "command+t" (mac);
+  3、显示隐藏文件：  "ctrl+h" (ubuntu);     "shift+cmmand+." (mac);
+  4、退出终端：      "exit"
+  5、关闭终端：      "command+w"
 
+  6、记录log：       "./xxx >> xxx.txt"
+
+  7、chmod +/-x xxx："给文件增加/减少执行权限"
+  8、chmod -R 777 filename: "可递归遍历子目录，把修改对应到目录下所有文件和子目录"
+
+  9、A电脑本地123文件 拷贝到 B(nihao)电脑home/456/:
+     scp 123 nihao@192.168.100.101:~/456/;
+  10、A电脑本地123文件夹下的以78开头的所有文件 拷贝到 B(nihao)电脑home/:
+     scp -r nihao@192.168.100.101:~/123/78*;
   ```
 tmux:
 
